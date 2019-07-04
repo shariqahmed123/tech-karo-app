@@ -1,0 +1,62 @@
+body {
+    font-family: 'josefin sans';
+    overflow-x: hidden;
+}
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#cc383f;
+    opacity: .9;
+    overflow: hidden;
+    padding-top: 60px;
+    transition: .7s;
+}
+.nav a{
+    display: block;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ccc;
+}
+.nav a:hover{
+    color: #fff;
+    transition: .3s;
+
+}
+.nav .close{
+    position: absolute;
+    top: 0;
+    right: 22px;   
+    margin-left: 50px;
+    font-size: 20px;
+}
+.slide a{
+    margin-top: 20em; 
+    color: #cc383f;
+    font-size: 20px
+}
+#content{
+    margin: 0;
+    transition: 0.7s;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: #be444a 3px solid;
+}
+
+.logo1{
+    margin: 0;
+}
+
+.logo{
+    padding: 0;
+    margin:0;
+    width: 70px;
+    height: 80px;
+   margin-left: 9.5em;
+
+}
