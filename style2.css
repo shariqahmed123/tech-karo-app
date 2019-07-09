@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+.elements {
+    text-align: center;
+    padding: 2em;
+    border-bottom: #be444a 2px solid;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #be444a;
+    text-transform: uppercase;
+    transition: .7s;
+}
+
+.elements:hover {
+    color: white;
+    background: #be444a;
+    border-bottom: white 2px solid;
+}
+
+a {
+    text-decoration: none;
+    color: #be444a;
+}
