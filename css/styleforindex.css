@@ -1,0 +1,38 @@
+/* .secHtml {
+    box-sizing: border-box;
+    width: 98%;
+    height: 50%;
+    ;
+} */
+
+.secHtml h1 {
+    text-align: center;
+    color: white;
+    background: hsl(357, 59%, 51%);
+    font-size: 5em;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.secHtml p {
+    color: #cc383f;
+    text-align: justify;
+    margin: 15px 15px;
+    /* -webkit-text-stroke-width: .9px;
+    -webkit-text-stroke-color: #cc383f; */
+}
+
+.secHtml button {
+    padding: 12px;
+    width: 110px;
+    color: white;
+    background: #cc383f;
+    font-family: 'josefin sans';
+    outline: none;
+    border: none;
+    margin-left: 20px;
+}
+
+.secHtml .btn1 {
+    margin-left: 65px;
+}
